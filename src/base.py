@@ -1,5 +1,5 @@
 str_inp = "hello in korean 🙁😙"
-print([ord(x) for x in str_inp])
+#print([ord(x) for x in str_inp])
 
 #in raw bytes 
 tokens = list(str_inp.encode("utf-8"))
@@ -22,4 +22,10 @@ def get_stats(ids):
         counts[pair] = counts.get(pair,0) + 1
     return counts 
 
-print(get_stats(tokens))
+stats = get_stats(tokens)
+# value,key list with the items and given reverse item 
+print(sorted(((v,k) for k,v in stats.items()),reverse=True))
+
+# get the max of the dictionary stats to rank keys 
+top_pair = max(stats,key=stats.get)
+print(top_pair)
