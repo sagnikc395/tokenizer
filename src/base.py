@@ -2,7 +2,7 @@ str_inp = "hello in korean 🙁😙"
 print([ord(x) for x in str_inp])
 
 #in raw bytes 
-print(list(str_inp.encode("utf-8")))
+tokens = list(str_inp.encode("utf-8"))
 # utf-16 is much wasteful encoding 
 #print(list(str_inp.encode("utf-16")))
 #utf-32 same is much more wasteful 
@@ -22,3 +22,4 @@ def get_stats(ids):
         counts[pair] = counts.get(pair,0) + 1
     return counts 
 
+print(get_stats(tokens))
