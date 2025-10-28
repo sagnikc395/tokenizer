@@ -1,10 +1,70 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.ipch
+*.pch
+*.idb
+*.opt
+*.ncb
+*.suo
+*.user
+*.aps
+*.manifest
+*.log
+*.map
+*.res
+*.tds
+*.bak
+*.sbr
+*.bsc
+*.vcproj.user
+*.vcxproj.user
+*.filters
+*.sln.docstates
+*.vsprops
+*.vspscc
+*.vssscc
+*.buildlog
+*.pidb
+*.tlog
+*.lastbuildstate
+*.opensdf
+*.sdf
+*.cache
+*.tlb
 
-# Virtual environments
-.venv
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+out/ # For CMake-based projects
+
+# IDE-specific files and directories (examples)
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp # Vim swap files
+*~ # Emacs backup files
+
+# Dependencies (if not managed by a package manager and intended to be ignored)
+libs/
+external/
+
+# Other temporary files
+*.*~
+*.tmp
+temp/
