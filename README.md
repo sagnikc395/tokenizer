@@ -1,7 +1,8 @@
 ## tokenization
 
-An implementation of the GPT BPE Tokenizer and
-adding a improvement using the [SuperBPE Algorithm](https://arxiv.org/abs/2503.13423).
+An implementation of the GPT BPE Tokenizer
+used in the GPT-2 paper
+and adding a improvement using the [SuperBPE Algorithm](https://arxiv.org/abs/2503.13423).
 
 ### Readings:
 
@@ -13,4 +14,3 @@ adding a improvement using the [SuperBPE Algorithm](https://arxiv.org/abs/2503.1
 
    1. [MEGABYTE](https://arxiv.org/abs/2305.07185)
 
-4.
